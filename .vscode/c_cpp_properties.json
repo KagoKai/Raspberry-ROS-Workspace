@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/noetic/include/**",
+        "/home/kagokai/raspberry_ws/src/lidar_test/include/**",
+        "/home/kagokai/catkin_ws/src/mecabot_bringup/include/**",
+        "/home/kagokai/catkin_ws/src/mecabot_description/include/**",
+        "/home/kagokai/catkin_ws/src/mecabot_gazebo/include/**",
+        "/home/kagokai/catkin_ws/src/mecabot_msgs/include/**",
+        "/home/kagokai/catkin_ws/src/mecabot_navigation/include/**",
+        "/home/kagokai/catkin_ws/src/mecabot_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

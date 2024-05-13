@@ -1,5 +1,5 @@
 <launch>
-    <arg name="frame_id" default="laser_frame"/>
+    <arg name="frame_id" default="laser"/>
     <arg name="motor_duty" default="100"/>
 
     <node pkg="lidar_test" type="lidar_motor.py" name="lidar_motor">

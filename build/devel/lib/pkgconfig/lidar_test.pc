@@ -1,0 +1,8 @@
+prefix=/home/kagokai/raspberry_ws/src/build/devel
+
+Name: lidar_test
+Description: Description of lidar_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

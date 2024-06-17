@@ -5,4 +5,6 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("lidar_test")
+subdirs("lidar_driver")
+subdirs("mecabot_bringup")
+subdirs("rplidar_ros")

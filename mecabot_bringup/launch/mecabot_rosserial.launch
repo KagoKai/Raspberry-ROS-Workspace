@@ -6,8 +6,8 @@
     <arg name="baud" default="115200"/>
 
     <node pkg="rosserial_python" type="serial_node.py" name="mecabot_rosserial" output="screen">
-        <param name="port" value="$(arg port)"/>
-        <param name="baud" value="$(arg baud)"/>
+        <param name="_port" value="$(arg port)"/>
+        <param name="_baud" value="$(arg baud)"/>
         <param name="tf_prefix" value="$(arg multi_robot_name)"/>
     </node>
 </launch>

@@ -15,11 +15,4 @@
     <include file="$(find mecabot_bringup)/launch/mecabot_lidar.launch">
         <arg name="frame_id" value="$(arg lidar_frame_id)"/>
     </include>
-
-    <!-- Madgwick filter -->
-    <node pkg="imu_filter_madgwick" type="imu_filter_node" name="imu_filter_node">
-        <param name="use_mag" value="false"/>
-        <param name="remove_gravity_vector" value="false"/>
-    </node>
-
  </launch>

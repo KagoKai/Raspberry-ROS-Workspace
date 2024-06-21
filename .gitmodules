@@ -1,0 +1,6 @@
+[submodule "i2c_device_ros"]
+	path = i2c_device_ros
+	url = https://github.com/Brazilian-Institute-of-Robotics/i2c_device_ros
+[submodule "mpu6050_driver"]
+	path = mpu6050_driver
+	url = https://github.com/Brazilian-Institute-of-Robotics/mpu6050_driver

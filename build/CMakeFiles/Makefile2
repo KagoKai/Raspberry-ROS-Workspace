@@ -56,6 +56,7 @@ CMAKE_BINARY_DIR = /home/kagokai/raspberry_ws/src/build
 all: gtest/all
 all: lidar_driver/all
 all: mecabot_bringup/all
+all: mpu6050_driver/all
 all: rplidar_ros/all
 
 .PHONY : all
@@ -64,6 +65,7 @@ all: rplidar_ros/all
 preinstall: gtest/preinstall
 preinstall: lidar_driver/preinstall
 preinstall: mecabot_bringup/preinstall
+preinstall: mpu6050_driver/preinstall
 preinstall: rplidar_ros/preinstall
 
 .PHONY : preinstall
@@ -77,6 +79,7 @@ clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: lidar_driver/clean
 clean: mecabot_bringup/clean
+clean: mpu6050_driver/clean
 clean: rplidar_ros/clean
 
 .PHONY : clean
@@ -201,6 +204,24 @@ mecabot_bringup/clean: mecabot_bringup/CMakeFiles/diagnostic_msgs_generate_messa
 mecabot_bringup/clean: mecabot_bringup/CMakeFiles/diagnostic_msgs_generate_messages_cpp.dir/clean
 
 .PHONY : mecabot_bringup/clean
+
+#=============================================================================
+# Directory level rules for directory mpu6050_driver
+
+# Recursive "all" directory target.
+mpu6050_driver/all:
+
+.PHONY : mpu6050_driver/all
+
+# Recursive "preinstall" directory target.
+mpu6050_driver/preinstall:
+
+.PHONY : mpu6050_driver/preinstall
+
+# Recursive "clean" directory target.
+mpu6050_driver/clean:
+
+.PHONY : mpu6050_driver/clean
 
 #=============================================================================
 # Directory level rules for directory rplidar_ros

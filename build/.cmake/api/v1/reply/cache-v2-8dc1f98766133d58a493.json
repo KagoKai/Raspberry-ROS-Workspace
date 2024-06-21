@@ -1171,7 +1171,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "7"
+			"value" : "8"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -2628,6 +2628,30 @@
 			],
 			"type" : "PATH",
 			"value" : "/opt/ros/noetic/share/message_runtime/cmake"
+		},
+		{
+			"name" : "mpu6050_driver_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/kagokai/raspberry_ws/src/build/mpu6050_driver"
+		},
+		{
+			"name" : "mpu6050_driver_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/kagokai/raspberry_ws/src/mpu6050_driver"
 		},
 		{
 			"name" : "rosconsole_DIR",

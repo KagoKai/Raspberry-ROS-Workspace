@@ -7,4 +7,5 @@
 subdirs("gtest")
 subdirs("lidar_driver")
 subdirs("mecabot_bringup")
+subdirs("mpu6050_driver")
 subdirs("rplidar_ros")

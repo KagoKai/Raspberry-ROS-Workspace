@@ -19,6 +19,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "lidar_driver/catkin_generated/package.cmake"
   "mecabot_bringup/catkin_generated/ordered_paths.cmake"
   "mecabot_bringup/catkin_generated/package.cmake"
+  "mpu6050_driver/catkin_generated/ordered_paths.cmake"
+  "mpu6050_driver/catkin_generated/package.cmake"
   "rplidar_ros/catkin_generated/ordered_paths.cmake"
   "rplidar_ros/catkin_generated/package.cmake"
   "rplidar_ros/catkin_generated/rplidar_ros-msg-extras.cmake.develspace.in"
@@ -28,6 +30,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../lidar_driver/package.xml"
   "../mecabot_bringup/CMakeLists.txt"
   "../mecabot_bringup/package.xml"
+  "../mpu6050_driver/CMakeLists.txt"
+  "../mpu6050_driver/package.xml"
   "../rplidar_ros/CMakeLists.txt"
   "../rplidar_ros/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
@@ -228,6 +232,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "gtest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lidar_driver/CMakeFiles/CMakeDirectoryInformation.cmake"
   "mecabot_bringup/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "mpu6050_driver/CMakeFiles/CMakeDirectoryInformation.cmake"
   "rplidar_ros/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

@@ -11,7 +11,8 @@
 						1,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"hasInstallRule" : true,
 					"minimumCMakeVersion" : 
@@ -136,6 +137,17 @@
 					]
 				},
 				{
+					"build" : "mpu6050_driver",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "mpu6050_driver"
+				},
+				{
 					"build" : "rplidar_ros",
 					"hasInstallRule" : true,
 					"minimumCMakeVersion" : 
@@ -143,7 +155,7 @@
 						"string" : "2.8.3"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 6,
+					"projectIndex" : 7,
 					"source" : "rplidar_ros",
 					"targetIndexes" : 
 					[
@@ -173,7 +185,8 @@
 						1,
 						4,
 						5,
-						6
+						6,
+						7
 					],
 					"directoryIndexes" : 
 					[
@@ -288,6 +301,14 @@
 					[
 						6
 					],
+					"name" : "mpu6050_driver",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
 					"name" : "rplidar_ros",
 					"parentIndex" : 0,
 					"targetIndexes" : 
@@ -312,11 +333,11 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "_rplidar_ros_generate_messages_check_deps_motor_speed::@281a62274e39d57c5da3",
 					"jsonFile" : "target-_rplidar_ros_generate_messages_check_deps_motor_speed-Debug-bd7b1e707d2391169566.json",
 					"name" : "_rplidar_ros_generate_messages_check_deps_motor_speed",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
 					"directoryIndex" : 0,
@@ -508,95 +529,95 @@
 					"projectIndex" : 4
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidarNode::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidarNode-Debug-456d3385e9a510281acf.json",
 					"name" : "rplidarNode",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidarNodeClient::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidarNodeClient-Debug-cc41bd2ab8243e1207de.json",
 					"name" : "rplidarNodeClient",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_gencpp::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_gencpp-Debug-a94b10b44d67eb89dbc9.json",
 					"name" : "rplidar_ros_gencpp",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_generate_messages::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_generate_messages-Debug-0fe6210420a7ac8e81b0.json",
 					"name" : "rplidar_ros_generate_messages",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_generate_messages_cpp::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_generate_messages_cpp-Debug-d2424b7bd8d937b9d94a.json",
 					"name" : "rplidar_ros_generate_messages_cpp",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_generate_messages_eus::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_generate_messages_eus-Debug-87a42f4e5fcf6dbb273a.json",
 					"name" : "rplidar_ros_generate_messages_eus",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_generate_messages_lisp::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_generate_messages_lisp-Debug-b7f22a0456d1a7609a2f.json",
 					"name" : "rplidar_ros_generate_messages_lisp",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_generate_messages_nodejs::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_generate_messages_nodejs-Debug-7c119fa3ee516ee650b4.json",
 					"name" : "rplidar_ros_generate_messages_nodejs",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_generate_messages_py::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_generate_messages_py-Debug-962639e12c43415860e1.json",
 					"name" : "rplidar_ros_generate_messages_py",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_geneus::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_geneus-Debug-98b4a1b7423aee526893.json",
 					"name" : "rplidar_ros_geneus",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_genlisp::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_genlisp-Debug-42f42739a99c3a41ce2a.json",
 					"name" : "rplidar_ros_genlisp",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_gennodejs::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_gennodejs-Debug-b8f804b7e21aa65383dc.json",
 					"name" : "rplidar_ros_gennodejs",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
-					"directoryIndex" : 6,
+					"directoryIndex" : 7,
 					"id" : "rplidar_ros_genpy::@281a62274e39d57c5da3",
 					"jsonFile" : "target-rplidar_ros_genpy-Debug-8e5792d1e9a464bbb94a.json",
 					"name" : "rplidar_ros_genpy",
-					"projectIndex" : 6
+					"projectIndex" : 7
 				},
 				{
 					"directoryIndex" : 0,

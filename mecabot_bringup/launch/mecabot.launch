@@ -15,4 +15,8 @@
     <include file="$(find mecabot_bringup)/launch/mecabot_lidar.launch">
         <arg name="frame_id" value="$(arg lidar_frame_id)"/>
     </include>
+
+    <!-- MPU-6050 -->
+    <include file="$(find mpu6050_driver)/launch/mpu6050_driver_with_filter.launch"/>	
+
  </launch>

@@ -20,7 +20,7 @@ publish_tf: true  # (bool, default: true)
 reverse_tf: false  # (bool, default: false)
 
 # The dt to use; if 0.0 (default), compute dt dynamically from message headers.
-constant_dt: 0.0   # (double, default: 0.0)
+constant_dt: 0.05   # (double, default: 0.0)
 
 # If set to true, publish a couple of debug topics.
 publish_debug_topics: false  # (bool, default: false)

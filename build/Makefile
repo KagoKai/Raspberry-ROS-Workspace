@@ -285,6 +285,32 @@ gtest/fast:
 .PHONY : gtest/fast
 
 #=============================================================================
+# Target rules for targets named i2c_device_ros
+
+# Build rule for target.
+i2c_device_ros: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 i2c_device_ros
+.PHONY : i2c_device_ros
+
+# fast build rule for target.
+i2c_device_ros/fast:
+	$(MAKE) -f i2c_device_ros/CMakeFiles/i2c_device_ros.dir/build.make i2c_device_ros/CMakeFiles/i2c_device_ros.dir/build
+.PHONY : i2c_device_ros/fast
+
+#=============================================================================
+# Target rules for targets named _catkin_empty_exported_target
+
+# Build rule for target.
+_catkin_empty_exported_target: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _catkin_empty_exported_target
+.PHONY : _catkin_empty_exported_target
+
+# fast build rule for target.
+_catkin_empty_exported_target/fast:
+	$(MAKE) -f i2c_device_ros/CMakeFiles/_catkin_empty_exported_target.dir/build.make i2c_device_ros/CMakeFiles/_catkin_empty_exported_target.dir/build
+.PHONY : _catkin_empty_exported_target/fast
+
+#=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_py
 
 # Build rule for target.
@@ -675,6 +701,45 @@ diagnostic_msgs_generate_messages_cpp/fast:
 .PHONY : diagnostic_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named mpu6050_calibration_node
+
+# Build rule for target.
+mpu6050_calibration_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mpu6050_calibration_node
+.PHONY : mpu6050_calibration_node
+
+# fast build rule for target.
+mpu6050_calibration_node/fast:
+	$(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build
+.PHONY : mpu6050_calibration_node/fast
+
+#=============================================================================
+# Target rules for targets named mpu6050_node
+
+# Build rule for target.
+mpu6050_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mpu6050_node
+.PHONY : mpu6050_node
+
+# fast build rule for target.
+mpu6050_node/fast:
+	$(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node.dir/build
+.PHONY : mpu6050_node/fast
+
+#=============================================================================
+# Target rules for targets named mpu6050_node_lib
+
+# Build rule for target.
+mpu6050_node_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 mpu6050_node_lib
+.PHONY : mpu6050_node_lib
+
+# fast build rule for target.
+mpu6050_node_lib/fast:
+	$(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build
+.PHONY : mpu6050_node_lib/fast
+
+#=============================================================================
 # Target rules for targets named rplidarNodeClient
 
 # Build rule for target.
@@ -878,6 +943,8 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... i2c_device_ros"
+	@echo "... _catkin_empty_exported_target"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_cpp"
@@ -908,6 +975,9 @@ help:
 	@echo "... diagnostic_msgs_generate_messages_lisp"
 	@echo "... diagnostic_msgs_generate_messages_eus"
 	@echo "... diagnostic_msgs_generate_messages_cpp"
+	@echo "... mpu6050_calibration_node"
+	@echo "... mpu6050_node"
+	@echo "... mpu6050_node_lib"
 	@echo "... rplidarNodeClient"
 	@echo "... rplidar_ros_generate_messages"
 	@echo "... rplidar_ros_geneus"

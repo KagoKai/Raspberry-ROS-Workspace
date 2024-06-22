@@ -3,6 +3,6 @@ prefix=/usr/local
 Name: mpu6050_driver
 Description: Description of mpu6050_driver
 Version: 0.0.0
-Cflags: 
+Cflags: -I${prefix}/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: roscpp sensor_msgs i2c_device_ros

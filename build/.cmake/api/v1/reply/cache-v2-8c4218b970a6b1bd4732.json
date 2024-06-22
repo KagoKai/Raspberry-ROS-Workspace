@@ -1171,7 +1171,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "8"
+			"value" : "9"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1628,6 +1628,18 @@
 			],
 			"type" : "STRING",
 			"value" : "/usr/lib/python3/dist-packages/em.py"
+		},
+		{
+			"name" : "Eigen3_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for Eigen3."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib/cmake/eigen3"
 		},
 		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PY_em",
@@ -2210,6 +2222,18 @@
 			"value" : "/opt/ros/noetic/share/catkin/cmake"
 		},
 		{
+			"name" : "cmake_modules_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for cmake_modules."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/opt/ros/noetic/share/cmake_modules/cmake"
+		},
+		{
 			"name" : "cpp_common_DIR",
 			"properties" : 
 			[
@@ -2520,6 +2544,42 @@
 			],
 			"type" : "STATIC",
 			"value" : "general;gtest;"
+		},
+		{
+			"name" : "i2c_device_ros_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/kagokai/raspberry_ws/src/build/i2c_device_ros"
+		},
+		{
+			"name" : "i2c_device_ros_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for i2c_device_ros."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/home/kagokai/raspberry_ws/src/build/devel/share/i2c_device_ros/cmake"
+		},
+		{
+			"name" : "i2c_device_ros_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/kagokai/raspberry_ws/src/i2c_device_ros"
 		},
 		{
 			"name" : "lib",

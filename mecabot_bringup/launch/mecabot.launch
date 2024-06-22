@@ -12,7 +12,7 @@
     </include>
 
     <!-- MPU-6050 -->
-    <include file="$(find mpu6050_driver)/launch/mpu6050_driver_with_filter.launch"/>	
+    <include file="$(find mecabot_bringup)/launch/mecabot_imu.launch"/>	
 
     <!-- Rosserial -->
     <include file="$(find mecabot_bringup)/launch/mecabot_rosserial.launch"/>

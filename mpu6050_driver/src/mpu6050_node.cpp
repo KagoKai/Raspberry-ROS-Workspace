@@ -24,6 +24,7 @@ SOFTWARE.
 */
 
 #include <cmath>
+#include <unistd.h>
 #include "mpu6050_driver/mpu6050_node.hpp"
 #include "sensor_msgs/Imu.h"
 
@@ -54,6 +55,7 @@ void MPU6050Node::run() {
 
   while (ros::ok()) {
     ros::spinOnce();
+    usleep(1);
     if (mpu6050_.getIntDataReadyStatus()) this->publishMPUData();
     loop_rate.sleep();
   }

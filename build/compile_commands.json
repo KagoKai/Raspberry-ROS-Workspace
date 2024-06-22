@@ -20,6 +20,36 @@
   "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
 },
 {
+  "directory": "/home/kagokai/raspberry_ws/src/build/i2c_device_ros",
+  "command": "/usr/bin/c++  -DROS_BUILD_SHARED_LIBS=1 -Di2c_device_ros_EXPORTS -I/home/kagokai/raspberry_ws/src/i2c_device_ros/include  -g -fPIC   -Wall -Werror -std=c++11 -o CMakeFiles/i2c_device_ros.dir/src/i2c_device.cpp.o -c /home/kagokai/raspberry_ws/src/i2c_device_ros/src/i2c_device.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/i2c_device_ros/src/i2c_device.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/mpu6050_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mpu6050_driver\\\" -I/home/kagokai/raspberry_ws/src/mpu6050_driver/include -I/home/kagokai/raspberry_ws/src/i2c_device_ros/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/mpu6050_calibration_node.dir/src/main_calibration.cpp.o -c /home/kagokai/raspberry_ws/src/mpu6050_driver/src/main_calibration.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/mpu6050_driver/src/main_calibration.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/mpu6050_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mpu6050_driver\\\" -I/home/kagokai/raspberry_ws/src/mpu6050_driver/include -I/home/kagokai/raspberry_ws/src/i2c_device_ros/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/mpu6050_calibration_node.dir/src/mpu6050_calibration_node.cpp.o -c /home/kagokai/raspberry_ws/src/mpu6050_driver/src/mpu6050_calibration_node.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/mpu6050_driver/src/mpu6050_calibration_node.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/mpu6050_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mpu6050_driver\\\" -I/home/kagokai/raspberry_ws/src/mpu6050_driver/include -I/home/kagokai/raspberry_ws/src/i2c_device_ros/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g   -std=c++11 -o CMakeFiles/mpu6050_node.dir/src/main.cpp.o -c /home/kagokai/raspberry_ws/src/mpu6050_driver/src/main.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/mpu6050_driver/src/main.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/mpu6050_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mpu6050_driver\\\" -Dmpu6050_node_lib_EXPORTS -I/home/kagokai/raspberry_ws/src/mpu6050_driver/include -I/home/kagokai/raspberry_ws/src/i2c_device_ros/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -std=c++11 -o CMakeFiles/mpu6050_node_lib.dir/src/mpu6050_node.cpp.o -c /home/kagokai/raspberry_ws/src/mpu6050_driver/src/mpu6050_node.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/mpu6050_driver/src/mpu6050_node.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/mpu6050_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"mpu6050_driver\\\" -Dmpu6050_node_lib_EXPORTS -I/home/kagokai/raspberry_ws/src/mpu6050_driver/include -I/home/kagokai/raspberry_ws/src/i2c_device_ros/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -g -fPIC   -std=c++11 -o CMakeFiles/mpu6050_node_lib.dir/src/mpu6050.cpp.o -c /home/kagokai/raspberry_ws/src/mpu6050_driver/src/mpu6050.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/mpu6050_driver/src/mpu6050.cpp"
+},
+{
   "directory": "/home/kagokai/raspberry_ws/src/build/rplidar_ros",
   "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I/home/kagokai/raspberry_ws/src/build/devel/include -I/home/kagokai/raspberry_ws/src/rplidar_ros/./sdk/include -I/home/kagokai/raspberry_ws/src/rplidar_ros/./sdk/src -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11  -O3 -DNDEBUG   -o CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o -c /home/kagokai/raspberry_ws/src/rplidar_ros/src/client.cpp",
   "file": "/home/kagokai/raspberry_ws/src/rplidar_ros/src/client.cpp"

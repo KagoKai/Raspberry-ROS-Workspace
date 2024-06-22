@@ -80,6 +80,28 @@ install/local/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -113,28 +135,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # The main all target
 all: cmake_check_build_system
 	cd /home/kagokai/raspberry_ws/src/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/kagokai/raspberry_ws/src/build/CMakeFiles /home/kagokai/raspberry_ws/src/build/mpu6050_driver/CMakeFiles/progress.marks
@@ -167,6 +167,186 @@ depend:
 	cd /home/kagokai/raspberry_ws/src/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/rule:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f CMakeFiles/Makefile2 mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/rule
+.PHONY : mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/rule
+
+# Convenience name for target.
+mpu6050_calibration_node: mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/rule
+
+.PHONY : mpu6050_calibration_node
+
+# fast build rule for target.
+mpu6050_calibration_node/fast:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build
+.PHONY : mpu6050_calibration_node/fast
+
+# Convenience name for target.
+mpu6050_driver/CMakeFiles/mpu6050_node.dir/rule:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f CMakeFiles/Makefile2 mpu6050_driver/CMakeFiles/mpu6050_node.dir/rule
+.PHONY : mpu6050_driver/CMakeFiles/mpu6050_node.dir/rule
+
+# Convenience name for target.
+mpu6050_node: mpu6050_driver/CMakeFiles/mpu6050_node.dir/rule
+
+.PHONY : mpu6050_node
+
+# fast build rule for target.
+mpu6050_node/fast:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node.dir/build
+.PHONY : mpu6050_node/fast
+
+# Convenience name for target.
+mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/rule:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f CMakeFiles/Makefile2 mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/rule
+.PHONY : mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/rule
+
+# Convenience name for target.
+mpu6050_node_lib: mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/rule
+
+.PHONY : mpu6050_node_lib
+
+# fast build rule for target.
+mpu6050_node_lib/fast:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build
+.PHONY : mpu6050_node_lib/fast
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/main_calibration.o: src/main_calibration.cpp.o
+
+.PHONY : src/main_calibration.o
+
+# target to build an object file
+src/main_calibration.cpp.o:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/src/main_calibration.cpp.o
+.PHONY : src/main_calibration.cpp.o
+
+src/main_calibration.i: src/main_calibration.cpp.i
+
+.PHONY : src/main_calibration.i
+
+# target to preprocess a source file
+src/main_calibration.cpp.i:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/src/main_calibration.cpp.i
+.PHONY : src/main_calibration.cpp.i
+
+src/main_calibration.s: src/main_calibration.cpp.s
+
+.PHONY : src/main_calibration.s
+
+# target to generate assembly for a file
+src/main_calibration.cpp.s:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/src/main_calibration.cpp.s
+.PHONY : src/main_calibration.cpp.s
+
+src/mpu6050.o: src/mpu6050.cpp.o
+
+.PHONY : src/mpu6050.o
+
+# target to build an object file
+src/mpu6050.cpp.o:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/src/mpu6050.cpp.o
+.PHONY : src/mpu6050.cpp.o
+
+src/mpu6050.i: src/mpu6050.cpp.i
+
+.PHONY : src/mpu6050.i
+
+# target to preprocess a source file
+src/mpu6050.cpp.i:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/src/mpu6050.cpp.i
+.PHONY : src/mpu6050.cpp.i
+
+src/mpu6050.s: src/mpu6050.cpp.s
+
+.PHONY : src/mpu6050.s
+
+# target to generate assembly for a file
+src/mpu6050.cpp.s:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/src/mpu6050.cpp.s
+.PHONY : src/mpu6050.cpp.s
+
+src/mpu6050_calibration_node.o: src/mpu6050_calibration_node.cpp.o
+
+.PHONY : src/mpu6050_calibration_node.o
+
+# target to build an object file
+src/mpu6050_calibration_node.cpp.o:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/src/mpu6050_calibration_node.cpp.o
+.PHONY : src/mpu6050_calibration_node.cpp.o
+
+src/mpu6050_calibration_node.i: src/mpu6050_calibration_node.cpp.i
+
+.PHONY : src/mpu6050_calibration_node.i
+
+# target to preprocess a source file
+src/mpu6050_calibration_node.cpp.i:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/src/mpu6050_calibration_node.cpp.i
+.PHONY : src/mpu6050_calibration_node.cpp.i
+
+src/mpu6050_calibration_node.s: src/mpu6050_calibration_node.cpp.s
+
+.PHONY : src/mpu6050_calibration_node.s
+
+# target to generate assembly for a file
+src/mpu6050_calibration_node.cpp.s:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_calibration_node.dir/src/mpu6050_calibration_node.cpp.s
+.PHONY : src/mpu6050_calibration_node.cpp.s
+
+src/mpu6050_node.o: src/mpu6050_node.cpp.o
+
+.PHONY : src/mpu6050_node.o
+
+# target to build an object file
+src/mpu6050_node.cpp.o:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/src/mpu6050_node.cpp.o
+.PHONY : src/mpu6050_node.cpp.o
+
+src/mpu6050_node.i: src/mpu6050_node.cpp.i
+
+.PHONY : src/mpu6050_node.i
+
+# target to preprocess a source file
+src/mpu6050_node.cpp.i:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/src/mpu6050_node.cpp.i
+.PHONY : src/mpu6050_node.cpp.i
+
+src/mpu6050_node.s: src/mpu6050_node.cpp.s
+
+.PHONY : src/mpu6050_node.s
+
+# target to generate assembly for a file
+src/mpu6050_node.cpp.s:
+	cd /home/kagokai/raspberry_ws/src/build && $(MAKE) -f mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/build.make mpu6050_driver/CMakeFiles/mpu6050_node_lib.dir/src/mpu6050_node.cpp.s
+.PHONY : src/mpu6050_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -175,11 +355,29 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... test"
+	@echo "... mpu6050_calibration_node"
+	@echo "... mpu6050_node"
+	@echo "... mpu6050_node_lib"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/main_calibration.o"
+	@echo "... src/main_calibration.i"
+	@echo "... src/main_calibration.s"
+	@echo "... src/mpu6050.o"
+	@echo "... src/mpu6050.i"
+	@echo "... src/mpu6050.s"
+	@echo "... src/mpu6050_calibration_node.o"
+	@echo "... src/mpu6050_calibration_node.i"
+	@echo "... src/mpu6050_calibration_node.s"
+	@echo "... src/mpu6050_node.o"
+	@echo "... src/mpu6050_node.i"
+	@echo "... src/mpu6050_node.s"
 .PHONY : help
 
 

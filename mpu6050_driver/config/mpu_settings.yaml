@@ -12,7 +12,7 @@ frame_id: "imu_frame"
 
 # Offsets to fix wrong values caused by misalignment
 # Sequence is (ax, ay, az, gx, gy, gz) (default: [0, 0, 0, 0, 0, 0])
-axes_offsets: [-133, 816, 1418, 21, 32, -2]
+axes_offsets: [-101, 818, 1435, 17, 34, 1]
 
 # PID constants used in calibration procedure
 ki: 0.2 # (default: 0.1)
@@ -20,4 +20,4 @@ kp: 0.1 # (default: 0.1)
 
 # The calibration process is finished when the error is aproximate zero with
 # the precision set by delta (default: 0.5) 
-delta: 0.5
+delta: 0.05

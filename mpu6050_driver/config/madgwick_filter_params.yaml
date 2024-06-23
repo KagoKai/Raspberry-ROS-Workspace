@@ -14,7 +14,7 @@ fixed_frame: "odom"   # (string, default: odom)
 
 # Whether to publish a TF transform that represents the orientation of the IMU, using the frame specified in
 # fixed_frame as the parent frame and the frame given in the input imu message as the child frame.
-publish_tf: true  # (bool, default: true)
+publish_tf: false  # (bool, default: true)
 
 # If set to true, publish transforms from imu_frame to fixed frame instead of the other way around.
 reverse_tf: false  # (bool, default: false)

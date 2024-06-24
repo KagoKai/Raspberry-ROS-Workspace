@@ -5,15 +5,10 @@
 
     <!-- Sensor init -->
     <include file="$(find mecabot_bringup)/launch/mecabot.launch"/>
+    <include file="$(find mecabot_bringup)/launch/mecabot_odom.launch"/>
 
     <!-- Map server -->
     <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
-
-    <!-- Robot descrition (if use real robot) -->
-    <group unless="$(arg use_simulation)">
-        <include file="$(find mecabot_bringup)/launch/mecabot_remote.launch"/>
-        <include file="$(find mecabot_bringup)/launch/mecabot_odom.launch"/>
-    </group>
 
     <!-- AMCL -->
     <include file="$(find mecabot_navigation)/launch/amcl.launch"/> 

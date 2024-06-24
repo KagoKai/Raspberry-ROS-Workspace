@@ -2,17 +2,12 @@
     <!-- Arguments -->
     <arg name="map_file" default="$(find mecabot_navigation)/maps/demo_map_save.yaml"/>
     <arg name="move_forward_only" default="true"/>
-    <arg name="use_rviz" default="true"/>
-    <arg name="rvizconfig" default="$(find mecabot_navigation)/rviz/mecabot_nav.rviz" />
-    <arg name="use_simulation" default="false"/>
+
+    <!-- Sensor init -->
+    <include file="$(find mecabot_bringup)/launch/mecabot.launch"/>
 
     <!-- Map server -->
     <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
-
-    <!-- Run the simulation in Gazebo (only run on server machine) -->
-    <group if="$(arg use_simulation)">
-        <include file="$(find mecabot_gazebo)/launch/spawn_mecabot_world.launch" if="$(arg use_simulation)"/>
-    </group>
 
     <!-- Robot descrition (if use real robot) -->
     <group unless="$(arg use_simulation)">

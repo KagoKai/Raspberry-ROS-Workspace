@@ -3,6 +3,9 @@
     <arg name="map_file" default="$(find mecabot_navigation)/maps/lab_map_final.yaml"/>
     <arg name="move_forward_only" default="true"/>
 
+    <!-- Sensor init -->
+    <include file="$(find mecabot_bringup)/launch/mecabot.launch"/>
+
     <!-- Map server -->
     <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
 

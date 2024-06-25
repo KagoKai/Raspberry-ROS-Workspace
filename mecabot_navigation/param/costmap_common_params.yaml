@@ -1,28 +1,20 @@
-obstacle_range: 0.6
-raytrace_range: 0.4
+obstacle_range: 0.6   # The range from the robot's center to start placing lethal cost onto obstacle
+raytrace_range: 0.6   # The range from the robot's center for open space to be set as free
 
 footprint: [[-0.075, -0.1275], [0.075, -0.1275], [0.075, 0.1275], [-0.075, 0.1275]]
 
-map_topic: /map
-subscribe_to_updates: true
-global_frame: odom
-robot_base_frame: base_link
-update_frequency: 10.0
-publish_frequency: 10.0
-rolling_window: false
+map_type: costmap
 
-plugins:
-  - {name: static_layer, type: "costmap_2d::StaticLayer"}
-  - {name: obstacle_layer, type: "costmap_2d::ObstacleLayer"}
-  - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
+inflation_radius: 0.2
+cost_scaling_factor: 3.0
 
 static_layer:
-  map_topic: /map
+  map_topic: map
   subscribe_to_updates: false
 
 obstacle_layer:
-    observation_sources: scan
-    laser_scan_sensor: {sensor_frame: lidar_frame, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+  observation_sources: scan
+  scan: {sensor_frame: lidar_frame, data_type: LaserScan, topic: scan, marking: true, clearing: true}
 
 inflation_layer:
   inflation_radius: 0.2

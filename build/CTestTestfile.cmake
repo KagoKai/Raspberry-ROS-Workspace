@@ -6,7 +6,9 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("i2c_device_ros")
+subdirs("mecabot_navigation")
 subdirs("lidar_driver")
 subdirs("mecabot_bringup")
 subdirs("mpu6050_driver")
 subdirs("rplidar_ros")
+subdirs("robot_localization")

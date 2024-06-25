@@ -1,0 +1,8 @@
+prefix=/home/kagokai/raspberry_ws/src/build/devel
+
+Name: mecabot_navigation
+Description: Description of mecabot_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

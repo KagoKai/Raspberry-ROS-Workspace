@@ -14,6 +14,9 @@
     <!-- MPU-6050 -->
     <include file="$(find mecabot_bringup)/launch/mecabot_imu.launch"/>	
 
+    <!-- Odometry EKF -->
+    <include file="$(find mecabot_bringup)/launch/mecabot_odom.launch"/>
+
     <!-- Rosserial -->
     <include file="$(find mecabot_bringup)/launch/mecabot_rosserial.launch"/>
 

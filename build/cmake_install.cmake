@@ -137,7 +137,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/kagokai/raspberry_ws/src/build/mecabot_bringup/cmake_install.cmake")
   include("/home/kagokai/raspberry_ws/src/build/mpu6050_driver/cmake_install.cmake")
   include("/home/kagokai/raspberry_ws/src/build/rplidar_ros/cmake_install.cmake")
-  include("/home/kagokai/raspberry_ws/src/build/robot_localization/cmake_install.cmake")
 
 endif()
 

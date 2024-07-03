@@ -536,7 +536,7 @@ i2c_device_ros_DIR:PATH=/home/kagokai/raspberry_ws/src/build/devel/share/i2c_dev
 i2c_device_ros_SOURCE_DIR:STATIC=/home/kagokai/raspberry_ws/src/i2c_device_ros
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/noetic/lib/libtopic_tools.so
+lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
 //Value Computed by CMake
 lidar_driver_BINARY_DIR:STATIC=/home/kagokai/raspberry_ws/src/build/lidar_driver
@@ -863,7 +863,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

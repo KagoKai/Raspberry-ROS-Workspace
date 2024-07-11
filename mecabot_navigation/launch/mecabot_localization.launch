@@ -1,6 +1,6 @@
 <launch>
     <!-- Arguments -->
-    <arg name="map_file" default="$(find mecabot_navigation)/maps/lab_map_final.yaml"/>
+    <arg name="map_file" default="$(find mecabot_navigation)/maps/mymap.yaml"/>
     <arg name="move_forward_only" default="true"/>
 
     <!-- Sensor init -->

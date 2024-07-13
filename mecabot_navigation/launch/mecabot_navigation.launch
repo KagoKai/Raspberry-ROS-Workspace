@@ -4,7 +4,7 @@
     <arg name="move_forward_only" default="false"/>
 
     <!-- Sensor init -->
-    <!-- <include file="$(find mecabot_bringup)/launch/mecabot.launch"/> -->
+    <include file="$(find mecabot_bringup)/launch/mecabot.launch"/>
     
     <!-- Map server -->
     <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>

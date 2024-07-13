@@ -11,6 +11,8 @@
 
     <!-- AMCL -->
     <!-- <include file="$(find mecabot_navigation)/launch/amcl.launch"/> -->
+    <!-- MCL -->
+    <include file="$(find als_ros)/launch/mcl.launch"/>
 
     <!-- move_base -->
     <include file="$(find mecabot_navigation)/launch/move_base.launch">

@@ -138,5 +138,50 @@
   "directory": "/home/kagokai/raspberry_ws/src/build/rplidar_ros",
   "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"rplidar_ros\\\" -I/home/kagokai/raspberry_ws/src/build/devel/include -I/home/kagokai/raspberry_ws/src/rplidar_ros/./sdk/include -I/home/kagokai/raspberry_ws/src/rplidar_ros/./sdk/src -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp  -std=c++11  -O3 -DNDEBUG   -o CMakeFiles/rplidarNode.dir/sdk/src/sl_udp_channel.cpp.o -c /home/kagokai/raspberry_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp",
   "file": "/home/kagokai/raspberry_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/als_ros/src/als_ros",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"als_ros\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/ni -I/usr/include/openni2 -I/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/include    -g   -o CMakeFiles/mrf_failure_detector.dir/src/mrf_failure_detector.cpp.o -c /home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/mrf_failure_detector.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/mrf_failure_detector.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/als_ros/src/als_ros",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"als_ros\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/ni -I/usr/include/openni2 -I/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/include -isystem /usr/include/opencv4    -g   -o CMakeFiles/slamer.dir/src/slamer.cpp.o -c /home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/slamer.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/slamer.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/als_ros/src/als_ros",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"als_ros\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/ni -I/usr/include/openni2 -I/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/include -isystem /usr/include/opencv4    -g   -o CMakeFiles/mcl.dir/src/mcl.cpp.o -c /home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/mcl.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/mcl.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/als_ros/src/als_ros",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"als_ros\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/ni -I/usr/include/openni2 -I/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/include -isystem /usr/include/opencv4    -g   -o CMakeFiles/classifier_dataset_generator.dir/src/classifier_dataset_generator.cpp.o -c /home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/classifier_dataset_generator.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/classifier_dataset_generator.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/als_ros/src/als_ros",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"als_ros\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/ni -I/usr/include/openni2 -I/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/include    -g   -o CMakeFiles/scan2pc.dir/src/scan2pc.cpp.o -c /home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/scan2pc.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/scan2pc.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/als_ros/src/als_ros",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"als_ros\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/ni -I/usr/include/openni2 -I/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/include -isystem /usr/include/opencv4    -g   -o CMakeFiles/gl_pose_sampler.dir/src/gl_pose_sampler.cpp.o -c /home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/gl_pose_sampler.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/gl_pose_sampler.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/als_ros/src/als_ros",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"als_ros\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/ni -I/usr/include/openni2 -I/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/include -isystem /usr/include/opencv4    -g   -o CMakeFiles/mae_classifier_learning.dir/src/mae_classifier_learning.cpp.o -c /home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/mae_classifier_learning.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/mae_classifier_learning.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/als_ros/src/als_ros",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"als_ros\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/ni -I/usr/include/openni2 -I/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/include -isystem /usr/include/opencv4    -g   -o CMakeFiles/sm.dir/src/sm.cpp.o -c /home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/sm.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/sm.cpp"
+},
+{
+  "directory": "/home/kagokai/raspberry_ws/src/build/als_ros/src/als_ros",
+  "command": "/usr/bin/c++  -DHAVE_YAMLCPP_GT_0_5_0 -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"als_ros\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/usr/include/vtk-7.1 -I/usr/include/freetype2 -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/usr/include/eigen3 -I/usr/include/pcl-1.10 -I/usr/include/ni -I/usr/include/openni2 -I/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/include    -g   -o CMakeFiles/evaluator.dir/src/evaluator.cpp.o -c /home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/evaluator.cpp",
+  "file": "/home/kagokai/raspberry_ws/src/als_ros/src/als_ros/src/evaluator.cpp"
 }
 ]
